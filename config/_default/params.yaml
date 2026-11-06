@@ -50,7 +50,7 @@ hugoblox:
       foreground: ""
       header:
         background: "#002D72"
-        foreground: ""
+        foreground: "#FFFFFF"
       footer:
         background: ""
         foreground: ""
