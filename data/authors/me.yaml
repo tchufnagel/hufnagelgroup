@@ -2,9 +2,9 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Todd Hufnagel
+  given: Todd
+  family: Hufnagel
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
   pronouns: he/him
@@ -21,32 +21,38 @@ bio: |
   while ensuring ethical development.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
-
+  - name: Johns Hopkins University
+    url: https://www.jhu.edu
+  - name: Artificial Intelligence for Materials Design Laboratory (AIMD-L)
+    url: https://hemi.jhu.edu/caimee/center-facilities/aimd-l/
+  - name: Department of Materials Science and Engineering
+    url: https://engineering.jhu.edu/materials/
+  - name: Hopkins Extreme Materials Institute (HEMI)
+    url: https://hemi.jhu.edu
+  - name: Center for Artificial Intelligence for Materials in Extreme Environments (CAIMEE)
+    url: https://hemi.jhu.edu/caimee/
+    
 links:
   - icon: at-symbol
     url: mailto:alex.johnson@example.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
     url: https://github.com/example
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/example/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://scholar.google.com/citations?user=0ZkuQSEAAAAJfind
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0000-0002-6373-9377
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Autonomous materials research
+  - Metallurgy
+  - X-ray diffraction and imaging
+  - Machine learning
 
 education:
-  - degree: PhD Computer Science
+  - degree: PhD Materials Science and Engineering
     institution: Stanford University
     start: 2015-09-01
     end: 2019-06-30
