@@ -1,4 +1,4 @@
-schema: hugoblox/author/v1
+sschema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
@@ -13,12 +13,9 @@ postnominals:
   - MIEEE
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
+role: Professor
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Todd Hufnagel is Professor of Materials Science and Engineering and Director of the Artificial Intelligence for Materials Design Laboratory at Johns Hopkins University.
 
 affiliations:
   - name: Johns Hopkins University
@@ -52,24 +49,20 @@ interests:
   - Machine learning
 
 education:
-  - degree: PhD Materials Science and Engineering
+  - degree: MS, PhD Materials Science and Engineering
     institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+    start: 1989
+    end: 1995
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      Structural and magnetic anisotropy in amorphous Fe-Tb alloys
     button:
       text: Download dissertation
       url: /resume.pdf
       icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: BS Metallurgical Engineering
+    institution: Michigan Tech
+    start: 1984
+    end: 1989
 
 experience:
   - role: Senior AI Research Scientist
