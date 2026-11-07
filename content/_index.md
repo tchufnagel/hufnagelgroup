@@ -7,42 +7,23 @@ type: landing
 
 sections:
   - block: hero
+    design:
+         layout: split-right
     content:
-         title: Hufnagel Research Group
-         text: One- or two-sentence description of the group's research.
+         title: Hufnagel Group
+         text: Autonomous materials research, x-rays, metallurgy, mechanical behavior, and machine learning for materials science.
+         media:
+           type: image
+           src: group-photo.jpg
+           alt: A happy research group
          primary_action:
-           text: Research
-           url: /research/
+           text: Projects
+           url: projects/
+           style: outline
          secondary_action:
            text: People
-           url: /people/
-  - block: resume-biography-3
-    content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: me
-      text: ''
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
-      headings:
-        about: ''
-        education: ''
-        interests: ''
-    design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
-      background:
-        gradient_mesh:
-          enable: false
-
-      # Name heading sizing to accommodate long or short names
-      name:
-        size: md # Options: xs, sm, md, lg (default), xl
-
-      # Avatar customization
-      avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+           url: people/
+           style: outline
   - block: markdown
     content:
       title: '📚 My Research'

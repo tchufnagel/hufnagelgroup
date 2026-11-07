@@ -38,8 +38,8 @@ hugoblox:
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
+      primary: "68ACE5" # JHU Spirit Blue
+      secondary: "F1C400" # JHU Gold
       neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
@@ -49,7 +49,8 @@ hugoblox:
       background: "#FFFFFF"
       foreground: ""
       header:
-        background: "#002D72"
+        background: "#68ACE5"
+        #background: "#002D72"
         foreground: "#FFFFFF"
       footer:
         background: ""
@@ -73,7 +74,7 @@ hugoblox:
     # Spacing density: 'compact', 'comfortable', or 'spacious'
     spacing: "spacious"
     # Avatar shape in author profiles
-    avatar_shape: circle # circle | square | rounded
+    avatar_shape: square # circle | square | rounded
 
   # ────────────────────────────────────────────────────────────────────────────
   # HEADER

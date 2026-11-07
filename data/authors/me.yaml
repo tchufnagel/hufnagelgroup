@@ -7,16 +7,13 @@ name:
   family: Hufnagel
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
-status:
-  icon: "☕️"
-role: Professor
-bio: |
-  Todd Hufnagel is Professor of Materials Science and Engineering and Director of the Artificial Intelligence for Materials Design Laboratory at Johns Hopkins University.
+role: Professor of Materials Science and Engineering • Director, AIMD-L
 
+user_groups: ['Principal Investigator']
+
+bio: |
+  Todd Hufnagel is Professor of Materials Science and Engineering and, by courtesy, Mechanical Engineering at Johns Hopkins University where is he also the Director of the Artificial Intelligence in Materials Design Laboratory (AIMD-L). He earned his B.S. degree in Metallurgical Engineering from Michigan Technological University in 1989, and M.S. and Ph.D. degrees in Materials Science and Engineering from Stanford University in 1991 and 1995, respectively. He began his career at Johns Hopkins in 1996, where his research has emphasized metallic glasses, and x-ray characterization of materials, including time-resolved x-ray diffraction and imaging studies of dynamic deformation, dynamic fracture, and rapid phase transformations in materials. Recent work has focused on three-dimensional characterization of materials using high-energy diffraction microscopy, x-ray phase contrast imaging, applications of machine learning to inverse process design, and autonomous materials experimentation. He is the recipient of an NSF CAREER award, an Army Young Investigator award, and the Capers and Marion McDonald Award for Excellence in Mentoring and Advising, and has held visiting appointments at Sidney Sussex College of Cambridge University, the Institute of Physics at the University of Amsterdam, and Utrecht University.  
+     
 affiliations:
   - name: Johns Hopkins University
     url: https://www.jhu.edu
@@ -65,51 +62,18 @@ education:
     end: 1989
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Professor, Materials Science and Engineering
+    org: Johns Hopkins University
+    start: 1996
     summary: |
       Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
     button:
       text: View portfolio
       url: /
       icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+  - role: Director, Artificial Intelligence for Materials Design Laboratory (AIMD-L)
+    org: Johns Hopkins University
+    start: 2024
     summary: |
       Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
 
-skills:
-  - name: Technical Skills
-    items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
-
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
