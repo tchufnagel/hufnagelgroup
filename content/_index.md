@@ -6,6 +6,16 @@ date: 2022-10-24
 type: landing
 
 sections:
+  - block: hero
+    content:
+         title: Hufnagel Research Group
+         text: One- or two-sentence description of the group's research.
+         primary_action:
+           text: Research
+           url: /research/
+         secondary_action:
+           text: People
+           url: /people/
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
