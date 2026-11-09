@@ -2,16 +2,18 @@
 # Leave the homepage title empty to use the site title
 title: ''
 summary: ''
-date: 2022-10-24
+date: 2026-11-07
 type: landing
 
 sections:
   - block: hero
     design:
-         layout: split-right
+         layout: split-left
+         spacing:
+           padding: ['0', '0', '0', '0']
     content:
          title: Hufnagel Group
-         text: Autonomous materials research, x-rays, metallurgy, mechanical behavior, and machine learning for materials science.
+         text: Autonomous materials research. And x-rays. And metallurgy. And mechanical behavior. And machine learning for materials science.
          media:
            type: image
            src: group-photo.jpg
@@ -24,18 +26,19 @@ sections:
            text: People
            url: people/
            style: outline
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+  - block: wide-text
+    id: research
     design:
-      columns: '1'
+      size: compact
+      alignment: left
+      spacing:
+        padding: ['0', '0', '0', '0']
+    content:
+#      title:
+      text: |
+        **About us**
+        
+        We like to do experiments, often using x-rays. Sometimes we like to hit things hard. Lately we've been getting the robots at [AIMD-L](https://hemi.jhu.edu/caimee/center-facilities/aimd-l/) to do our work for us. We're excited to be part of AIMD-Net, a node in the new National Science Foundation [Programmable Cloud Laboratory (PCL) Network](https://www.nsf.gov/funding/opportunities/pcl-test-bed-test-bed-toward-network-programmable-cloud-laboratories). And we're harnessing machine learing to understand the tremendous amount of data that we collect.
   - block: collection
     id: papers
     content:
@@ -46,26 +49,17 @@ sections:
         featured_only: true
     design:
       view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
+      columns: 1
+#  - block: collection
+#    content:
+#      title: Recent Publications
+#      text: ''
+#      filters:
+#        folders:
+#          - publications
+#        exclude_featured: false
+#    design:
+#      view: citation
   - block: collection
     id: news
     content:
@@ -75,7 +69,7 @@ sections:
       # Page type to display. E.g. post, talk, publication...
       page_type: blog
       # Choose how many pages you would like to display (0 = all pages)
-      count: 10
+      count: 5
       # Filter on criteria
       filters:
         author: ''

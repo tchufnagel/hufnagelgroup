@@ -7,16 +7,31 @@ type: landing
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Projects
+      text: Here's what we're up to.
       filters:
         folders:
           - projects
     design:
       view: article-grid
       fill_image: false
-      columns: 3
+      columns: 2
       show_date: false
       show_read_time: false
       show_read_more: false
+  - block: collection
+    content:
+      title: Tools
+      text: The things we use.
+      filters:
+        folders:
+          - tools
+    design:
+      view: article-grid
+      fill_image: false
+      columns: 2
+      show_date: false
+      show_read_time: false
+      show_read_more: false
+
 ---

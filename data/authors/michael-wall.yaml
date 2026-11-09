@@ -1,0 +1,29 @@
+sschema: hugoblox/author/v1
+slug: michael-wall
+is_owner: false
+name:
+  display: Michael Wall
+  given: Michael
+  family: Wall
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+role: Post-doc 2023-2025 • Research Lab Manager, U. North Texas
+graduation_year: 2025
+
+user_groups: ['Recent Alumni']
+   
+#links:
+#  - icon: at-symbol
+#    url: mailto:alex.johnson@example.com
+#    label: E-mail Me
+#  - icon: brands/github
+#    url: https://github.com/example
+#  - icon: brands/linkedin
+#    url: https://www.linkedin.com/in/example/
+#  - icon: academicons/google-scholar
+#    url: https://scholar.google.com/citations?user=0ZkuQSEAAAAJfind
+#  - icon: academicons/orcid
+#    url: https://orcid.org/0000-0002-6373-9377
+
+
+

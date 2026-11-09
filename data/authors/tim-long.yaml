@@ -1,0 +1,29 @@
+sschema: hugoblox/author/v1
+slug: tim-long
+is_owner: false
+name:
+  display: Tim Long
+  given: Tim
+  family: Long
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+role: Post-doc 2021-2024 • Engineer, Blue Origin
+graduation_year: 2024
+
+user_groups: ['Recent Alumni']
+   
+#links:
+#  - icon: at-symbol
+#    url: mailto:alex.johnson@example.com
+#    label: E-mail Me
+#  - icon: brands/github
+#    url: https://github.com/example
+#  - icon: brands/linkedin
+#    url: https://www.linkedin.com/in/example/
+#  - icon: academicons/google-scholar
+#    url: https://scholar.google.com/citations?user=0ZkuQSEAAAAJfind
+#  - icon: academicons/orcid
+#    url: https://orcid.org/0000-0002-6373-9377
+
+
+

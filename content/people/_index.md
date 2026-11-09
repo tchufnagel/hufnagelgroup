@@ -10,7 +10,9 @@ sections:
         - Postdoctoral Researchers
         - Graduate Students
         - Undergraduate Students
-        - Alumni
+        - name: Recent Alumni
+          sort_by: graduation_year
+          sort_ascending: false
     design:
       show_organizations: false
 ---

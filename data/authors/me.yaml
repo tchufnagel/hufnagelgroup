@@ -12,28 +12,35 @@ role: Professor of Materials Science and Engineering • Director, AIMD-L
 user_groups: ['Principal Investigator']
 
 bio: |
-  Todd Hufnagel is Professor of Materials Science and Engineering and, by courtesy, Mechanical Engineering at Johns Hopkins University where is he also the Director of the Artificial Intelligence in Materials Design Laboratory (AIMD-L). He earned his B.S. degree in Metallurgical Engineering from Michigan Technological University in 1989, and M.S. and Ph.D. degrees in Materials Science and Engineering from Stanford University in 1991 and 1995, respectively. He began his career at Johns Hopkins in 1996, where his research has emphasized metallic glasses, and x-ray characterization of materials, including time-resolved x-ray diffraction and imaging studies of dynamic deformation, dynamic fracture, and rapid phase transformations in materials. Recent work has focused on three-dimensional characterization of materials using high-energy diffraction microscopy, x-ray phase contrast imaging, applications of machine learning to inverse process design, and autonomous materials experimentation. He is the recipient of an NSF CAREER award, an Army Young Investigator award, and the Capers and Marion McDonald Award for Excellence in Mentoring and Advising, and has held visiting appointments at Sidney Sussex College of Cambridge University, the Institute of Physics at the University of Amsterdam, and Utrecht University.  
+  Todd Hufnagel is Professor of Materials Science and Engineering and, by courtesy, Mechanical Engineering at Johns Hopkins University where is he also the Director of the Artificial Intelligence in Materials Design Laboratory (AIMD-L). His research focuses on three-dimensional characterization of materials using high-energy diffraction microscopy, x-ray phase contrast imaging, applications of machine learning to inverse process design, and autonomous materials experimentation. He is the recipient of an NSF CAREER award, an Army Young Investigator award, and the Capers and Marion McDonald Award for Excellence in Mentoring and Advising, and has held visiting appointments at Sidney Sussex College of Cambridge University, the Institute of Physics at the University of Amsterdam, and Utrecht University.  
+
+  **Education**
+  - PhD, Materials Science and Engineering, Stanford University, 1995
+  - MS, Materials Science and Engineering, Stanford University, 1991
+  - BS, Metallurgical Engineering, Michigan Tech, 1989
+    
+  [Publications](../../publications/)
      
-affiliations:
-  - name: Johns Hopkins University
-    url: https://www.jhu.edu
-  - name: Artificial Intelligence for Materials Design Laboratory (AIMD-L)
-    url: https://hemi.jhu.edu/caimee/center-facilities/aimd-l/
-  - name: Department of Materials Science and Engineering
-    url: https://engineering.jhu.edu/materials/
-  - name: Hopkins Extreme Materials Institute (HEMI)
-    url: https://hemi.jhu.edu
-  - name: Center for Artificial Intelligence for Materials in Extreme Environments (CAIMEE)
-    url: https://hemi.jhu.edu/caimee/
+#affiliations:
+#  - name: Johns Hopkins University
+#    url: https://www.jhu.edu
+#  - name: Artificial Intelligence for Materials Design Laboratory (AIMD-L)
+#    url: https://hemi.jhu.edu/caimee/center-facilities/aimd-l/
+#  - name: Department of Materials Science and Engineering
+#    url: https://engineering.jhu.edu/materials/
+#  - name: Hopkins Extreme Materials Institute (HEMI)
+#    url: https://hemi.jhu.edu
+#  - name: Center for Artificial Intelligence for Materials in Extreme Environments (CAIMEE)
+#    url: https://hemi.jhu.edu/caimee/
     
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:hufnagel@jhu.edu
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/tchufnagel
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/todd-hufnagel/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=0ZkuQSEAAAAJfind
   - icon: academicons/orcid
@@ -65,8 +72,8 @@ experience:
   - role: Professor, Materials Science and Engineering
     org: Johns Hopkins University
     start: 1996
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+#    summary: |
+#      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
     button:
       text: View portfolio
       url: /
@@ -74,6 +81,6 @@ experience:
   - role: Director, Artificial Intelligence for Materials Design Laboratory (AIMD-L)
     org: Johns Hopkins University
     start: 2024
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+#    summary: |
+#      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
 

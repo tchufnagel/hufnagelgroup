@@ -1,0 +1,16 @@
+   {{/* Wide text block: Hugo Blox markdown block with a wider content area */}}
+   {{ $page := .wcPage }}
+   {{ $block := .wcBlock }}
+   {{ $content := $block.content }}
+   {{ if not (reflect.IsMap $content) }}{{ $content = dict }}{{ end }}
+   {{ $title := "" }}
+   {{ with index $content "title" }}{{ $title = printf "%v" . | emojify | $page.RenderString }}{{ end }}
+   {{ $text := "" }}
+   {{ with index $content "text" }}{{ $text = printf "%v" . | emojify | $page.RenderString | safeHTML }}{{ end }}
+
+   <div class="flex flex-col items-center max-w-7xl mx-auto gap-3 justify-left px-6">
+     {{ with $title }}
+     <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">{{ . }}</div>
+     {{ end }}
+     {{ with $text }}<div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-none">{{ . }}</div>{{ end }}
+   </div>

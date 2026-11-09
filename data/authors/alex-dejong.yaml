@@ -1,9 +1,9 @@
-sschema: hugoblox/author/v1
+schema: hugoblox/author/v1
 slug: alex-dejong
 is_owner: false
 name:
-  display: Alex deJong
-  given: Alex
+  display: Alexander deJong
+  given: Alexander
   family: deJong
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
@@ -13,14 +13,14 @@ user_groups: ['Graduate Students']
    
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:adejong2@jhu.edu
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/adejong2026
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/alexander-dejong-691864171/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=0ZkuQSEAAAAJfind
+    url: https://scholar.google.com/citations?user=1jgORkoAAAAJ&hl=en&oi=ao
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-6373-9377
+    url: https://orcid.org/0009-0001-0571-7065
 
