@@ -10,19 +10,22 @@ name:
 role: PhD student
 
 user_groups: ['Graduate Students']
+
+bio: |
+  Gannon Murray is a PhD student in the Department of Materials Science and Engineering at Johns Hopkins University. He is co-advised by Todd Hufnagel and David Elbert. His research areas include materials informatics, inverse problems and uncertainty quantification in x-ray diffraction, and applications of edge AI to high-throughput experimentation in service to the Artificial Intelligence for Materials Design Network (AIMD-Net). 
     
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:gmurra12@jh.edu
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/gb-murray
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/gannon-murray-01844b361/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=0ZkuQSEAAAAJfind
+    url: https://scholar.google.com/citations?user=IiLR3G0AAAAJ&hl
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-6373-9377
+    url: https://orcid.org/0009-0005-5158-9550
 
 
 

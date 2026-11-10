@@ -16,22 +16,21 @@ authors:
   - tim-long
   - michael-wall
 
-#links:
-#  - type: site
-#    url: https://hemi.jhu.edu/
+links:
+  - type: site
+    url: https://aimd.jhu.edu/
 
 # Setting an abstract turns on the details grid for a project page.
 abstract: Robots, x-rays, and lasers. Oh my!
 
 funding:
   - funder: National Science Foundation
-    grant: Award No. 0000000
+    grant: Award No. 2607526, 1921959
     url: https://www.nsf.gov/
 
   - funder: DEVCOM ARL (Army Research Laboratory)
-    grant: Award No. 0000000
-    url: https://www.nsf.gov/
-
+    grant: Award Nos. W911NF-22-2-0014, W911NF-23-2-0062, W911NF-22-2-0121
+    url: https://arl.devcom.army.mil
 
 #license: CC BY 4.0
 
@@ -74,4 +73,5 @@ Our lab looks at how we can analyze data from high-throughput experimentation in
 
 Text, equations, and further figures go here.
 
-#{{< youtube VIDEO_ID >}}
+## Talks
+Professor Hufnagel gave a talk about AIMD-L for the US Association for Computational Mechanics. [Watch the talk on YouTube](https://youtu.be/InGe8Wz-EVc)

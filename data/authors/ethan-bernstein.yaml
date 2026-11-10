@@ -5,23 +5,23 @@ name:
   display: Ethan Bernstein
   given: Ethan
   family: Bernstein
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  #alternate: ''  # Example: 王伟
+  #pronunciation: ''  # Example: Wáng Wěi
 role: PhD student
   
 user_groups: ['Graduate Students']
    
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:eberns17@jhu.edu
     label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/example
+#  - icon: brands/github
+#    url: https://github.com/example
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=0ZkuQSEAAAAJfind
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-6373-9377
+    url: https://www.linkedin.com/in/ethan-bernstein-764400252
+#  - icon: academicons/google-scholar
+#    url: https://scholar.google.com/citations?user=0ZkuQSEAAAAJfind
+#  - icon: academicons/orcid
+#    url: https://orcid.org/0000-0002-6373-9377
 
 
