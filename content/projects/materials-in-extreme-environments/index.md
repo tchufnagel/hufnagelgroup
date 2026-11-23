@@ -1,6 +1,6 @@
 ---
 # ---- Confirmed in layouts/single.html ----
-title: Materials in extreme enivronments
+title: Materials in extreme environments
 date: 2026-11-08
 summary: Smashing things and watching what happens.
 
@@ -19,7 +19,7 @@ authors:
 #    url: https://hemi.jhu.edu/
 
 # Setting an abstract turns on the details grid for a project page.
-abstract: Robots, x-rays, and lasers. Oh my!
+#abstract: Robots, x-rays, and lasers. Oh my!
 
 funding:
   - funder: Defense Threat Reduction Agency
@@ -47,24 +47,6 @@ share: false             # hide share buttons in the footer
 #   - name: Best Paper Award
 ---
 
-## Overview
+{{< video src="granite-hyfire.mp4" >}}
 
-Historically, materials discovery has relied on trial-and-error, with researchers gradually expanding compositional and processing steps through manual, iterative testing. In recent years this paradigm has shifted with the rise of data-driven materials discovery, where computational tools like density functional theory (DFT) help refine experimental search spaces, drastically reducing the need for exhaustive trial-and-error. These computational techniques are now being enhanced even further through the integration of artificial intelligence (AI) and machine learning (ML) methods.
-
-As data-driven models become faster and more sophisticated, however, the traditional pace of experimentation has become a bottleneck that slows down the otherwise accelerated materials discovery pipeline. Conventional methods simply cannot keep up with the speed at which computational predictions are now being generated.
-
-Our lab looks at how we can analyze data from high-throughput experimentation in an automated way, allowing us to analyze samples and directly make decisions on further experiments without direct researcher intervention.
-
-## Approach
-
-- ML
-- More ML
-- Still more ML
-
-![Example figure](figure1.png)
-
-## Results
-
-Text, equations, and further figures go here.
-
-#{{< youtube VIDEO_ID >}}
+*Description coming soon.*

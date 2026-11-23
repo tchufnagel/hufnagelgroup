@@ -48,7 +48,6 @@ share: false             # hide share buttons in the footer
 #   - name: Best Paper Award
 ---
 
-### Overview
 Automated, high-throughput laboratories such as [AIMD-L]({{< relref "/tools/aimdl" >}}) are transforming materials science and engineering by making it possible to collect, process, and analyze experimental data at tremendous rates. AI and ML models trained on these data can drive materials exploration campaigns and can themselves make decisions about what experiments to do next --- true autonomous research.
 
 But any single laboratory has a limited set of capabilities. Expensive or specialized instruments will only exist in a few places, and some types of equipment are incompatible (we wouldn't usually want to put precision laser optics and rolling mills in the same lab, for example). So any complex research program is almost always going to need to access more than one laboratory.
@@ -65,4 +64,4 @@ The NSF Programmable Cloud Laboratory (PCL) Test Bed Network is enabling this vi
 The physical home base of AIMD-Net is [AIMD-L]({{< relref "/tools/aimdl" >}}), but its heart is a team of researchers extending well beyond JHU:
 ![AIMD-net collaborators](map.png)
 
-
+{{< nsf-pcl >}}
