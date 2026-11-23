@@ -11,7 +11,7 @@ authors:
 - Ravit Silverstein
 - Mason Holmes
 - James B. Spicer
-- Todd C. Hufnagel
+- me
 - Matthew R. Begley
 - Alejandro Strachan
 - K. T. Ramesh

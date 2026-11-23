@@ -1,12 +1,12 @@
 ---
 title: Microstructural effects on the spall failure of 7085 aluminum alloy
 authors:
-- Dung-Yi Wu
+- dungyi-wu
 - Chengyun Miao
 - Christopher S. DiMarco
 - Hao Sheng
 - K. T. Ramesh
-- Todd C. Hufnagel
+- me
 date: '2023-01-01'
 publishDate: '2026-11-07T20:39:48.354421Z'
 publication_types:

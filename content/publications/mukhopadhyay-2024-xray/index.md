@@ -4,9 +4,9 @@ title: X-ray imaging of powder particles driven from a surface by a nearby elect
 authors:
 - Shomik Mukhopadhyay
 - Kevin Hom
-- Alexander deJong
-- Timothy Long
-- Todd C. Hufnagel
+- alex-dejong
+- tim-long
+- me
 - Amlan Das
 - Katherine Sato Shanks
 - Mirko Schoenitz

@@ -2,8 +2,8 @@
 title: Efficient searching of processing parameter space to enable inverse microstructural
   design of materials
 authors:
-- Dung-Yi Wu
-- Todd C. Hufnagel
+- dungyi-wu
+- me
 date: '2024-01-01'
 publishDate: '2026-11-07T20:39:48.341779Z'
 publication_types:
