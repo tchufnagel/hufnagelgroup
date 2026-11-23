@@ -21,7 +21,7 @@ links:
     url: https://aimd.jhu.edu/
 
 # Setting an abstract turns on the details grid for a project page.
-abstract: Robots, x-rays, and lasers. Oh my!
+# abstract: Robots, x-rays, and lasers. Oh my!
 
 funding:
   - funder: National Science Foundation
@@ -39,10 +39,10 @@ share: false             # hide share buttons in the footer
 # ---- Not confirmed for this Hugo Blox version: uncomment one at a time to test ----
 # toc: true              # table of contents
 
-# image:                 # featured-image settings (traditional Hugo Blox keys)
-#   placement: 2         # 1 = ~720 px (default), 2 = ~1200 px, 3 = full width
-#   caption: HELIX target chamber
-#   preview_only: false  # true = show on cards only, not on this page
+image:                 # featured-image settings (traditional Hugo Blox keys)
+   placement: 2         # 1 = ~720 px (default), 2 = ~1200 px, 3 = full width
+   caption: HELIX target chamber
+   preview_only: true  # true = show on cards only, not on this page
 
 # cover:                 # banner at top of page
 #   icon:
@@ -53,25 +53,18 @@ share: false             # hide share buttons in the footer
 #   - name: Best Paper Award
 ---
 
-## Overview
+{{< video src="maxima-delay.mp4" poster="maxima_poster.jpg" >}}
 
-Historically, materials discovery has relied on trial-and-error, with researchers gradually expanding compositional and processing steps through manual, iterative testing. In recent years this paradigm has shifted with the rise of data-driven materials discovery, where computational tools like density functional theory (DFT) help refine experimental search spaces, drastically reducing the need for exhaustive trial-and-error. These computational techniques are now being enhanced even further through the integration of artificial intelligence (AI) and machine learning (ML) methods.
+From the earliest days of science, experiments have been performed by humans. Humans are intelligent, creative, adaptable, and dextrous - all extremely valuable for an experimentalist. But humans are not perfect. They can get tired, bored, or distracted, leading to errors. There are limits to the precision and reproducibility of their motions. And some jobs are too hazardous to ask them to do.
 
-As data-driven models become faster and more sophisticated, however, the traditional pace of experimentation has become a bottleneck that slows down the otherwise accelerated materials discovery pipeline. Conventional methods simply cannot keep up with the speed at which computational predictions are now being generated.
+Recent developments in robotics are making it possible to turn some experiments over to machines, which can run them faster and with greater reproducibility than humans, improving both the quantity and quality of the data.
 
-Our lab looks at how we can analyze data from high-throughput experimentation in an automated way, allowing us to analyze samples and directly make decisions on further experiments without direct researcher intervention.
+Marrying automated experiments with AI produces even greater advantages. In a robotic lab every experiment is systematically tracked and recorded, including all of the metadata - information that provides context for data, such as the identity of the sample, which instrument was used, and what the experimental conditions were. The result is data sets that are consistent, reliable, and less in need of subjective interpretation.
 
-## Approach
+These data enable closed-loop decision-making, in which an algorithm chooses the experiments to be run based on the results of what has been learned so far. Although humans have expert knowledge, there are limits to how information they can hold in memory  and they have a hard time visualizing the many variables involved in a complex experimental campaign. AI can assist by assessing the results of the current experiment and placing it in the context of an entire data set as well the results of prior experiments and what is known from the scientific literature.
 
-- ML
-- More ML
-- Still more ML
+{{< arl agreement="W911NF-22-2-0014, W911NF-23-2-0062, W911NF-22-2-0121" >}}
+{{< nsf award="1921959" >}}
+{{< nsf-pcl >}}
 
-![Example figure](figure1.png)
 
-## Results
-
-Text, equations, and further figures go here.
-
-## Talks
-Professor Hufnagel gave a talk about AIMD-L for the US Association for Computational Mechanics. [Watch the talk on YouTube](https://youtu.be/InGe8Wz-EVc)

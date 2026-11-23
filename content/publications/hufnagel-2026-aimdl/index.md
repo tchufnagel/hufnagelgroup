@@ -3,7 +3,7 @@ featured: true
 title: 'AIMD-L: An automated laboratory for high-throughput characterization of structural
   materials for extreme environments'
 authors:
-- Todd C. Hufnagel
+- me
 - Pranav Addepalli
 - Anuruddha Bhattacharjee
 - Rohit Berlia
@@ -14,7 +14,7 @@ authors:
 - Harichandana Neralla
 - T. Joseph Nkansah-Mahaney
 - Mostafa M. Omar
-- Hyun Sang Park
+- Harrison Park
 - K. T. Ramesh
 - Matthew Shaeffer
 - Eric Walker

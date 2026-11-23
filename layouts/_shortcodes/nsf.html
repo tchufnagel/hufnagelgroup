@@ -1,0 +1,10 @@
+{{- $awards := slice -}}
+{{- range split (.Get "award") "," -}}
+  {{- with strings.TrimSpace . }}{{ $awards = $awards | append . }}{{ end -}}
+{{- end -}}
+<p style="font-size: 0.75em; font-style: italic; font-synthesis: style; margin-top: 1em;">
+This material is based upon work supported by the U.S. National Science Foundation under
+{{ if gt (len $awards) 1 }}Award Nos.{{ else }}Award No.{{ end }} {{ delimit $awards ", " " and " }}.
+Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s)
+and do not necessarily reflect the views of the National Science Foundation.
+</p>

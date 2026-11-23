@@ -1,6 +1,9 @@
 ---
-title: Publications
+title: Recent publications
 cms_exclude: true
+cascade:
+  - params:
+      reading_time: false
 
 # View.
 view: citation

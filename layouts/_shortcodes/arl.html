@@ -1,0 +1,13 @@
+{{- $agreements := slice -}}
+{{- range split (.Get "agreement") "," -}}
+  {{- with strings.TrimSpace . }}{{ $agreements = $agreements | append . }}{{ end -}}
+{{- end -}}
+<p style="font-size: 0.75em; font-style: italic; margin-top: 1em;">
+Research was sponsored by the Army Research Laboratory and was accomplished under
+{{ if gt (len $agreements) 1 }}Cooperative Agreement Numbers{{ else }}Cooperative Agreement Number{{ end }}
+{{ delimit $agreements ", " " and " }}.
+The views and conclusions contained in this document are those of the authors and should not be interpreted
+as representing the official policies, either expressed or implied, of the Army Research Laboratory or the
+U.S. Government. The U.S. Government is authorized to reproduce and distribute reprints for Government
+purposes notwithstanding any copyright notation herein.
+</p>
