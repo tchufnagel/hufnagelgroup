@@ -9,47 +9,38 @@ sections:
   - block: hero
     design:
          layout: split-left
-         spacing:
-           padding: ['0', '0', '0', '0']
+         size: compact
     content:
          title: Hufnagel Group
-         text: Autonomous materials research. And x-rays. And metallurgy. And mechanical behavior. And machine learning for materials science.
+         text:  We like to do experiments, often using x-rays. Sometimes we hit things hard. Lately we've been getting robots to do our work for us and using machine learing to understand our data.
          media:
            type: image
            src: group-photo.jpg
            alt: A happy research group
          primary_action:
-           text: Projects
-           url: projects/
-           style: outline
-         secondary_action:
            text: People
            url: people/
            style: outline
-  - block: wide-text
-    id: research
-    design:
-      size: compact
-      alignment: left
-      spacing:
-        padding: ['0', '0', '0', '0']
-    content:
-#      title:
-      text: |
-        **About us**
+         secondary_action:
+           text: News
+           url: '#news' 
+           style: outline
         
-        We like to do experiments, often using x-rays. Sometimes we like to hit things hard. Lately we've been getting the robots at [AIMD-L](https://hemi.jhu.edu/caimee/center-facilities/aimd-l/) to do our work for us. We're excited to be part of AIMD-Net, a node in the new National Science Foundation [Programmable Cloud Laboratory (PCL) Network](https://www.nsf.gov/funding/opportunities/pcl-test-bed-test-bed-toward-network-programmable-cloud-laboratories). And we're harnessing machine learing to understand the tremendous amount of data that we collect.
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Featured publications
       filters:
         folders:
           - publications
         featured_only: true
     design:
       view: article-grid
-      columns: 1
+      columns: 2
+      spacing:
+        padding: ['0rem', '0', '3rem', '0']
+      show_date: false
+      show_read_time: false
 #  - block: collection
 #    content:
 #      title: Recent Publications
@@ -63,7 +54,7 @@ sections:
   - block: collection
     id: news
     content:
-      title: Recent News
+      title: News
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
@@ -89,6 +80,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+      show_read_time: false
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:

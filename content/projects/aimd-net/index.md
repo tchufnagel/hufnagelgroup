@@ -1,7 +1,7 @@
 ---
 # ---- Confirmed in layouts/single.html ----
-title: AIMD-Net
-date: 2026-11-08
+title: AIMD-Net PCL
+date: 2026-11-14
 summary: A Programmable Cloud Laboratory at Johns Hopkins
 
 show_breadcrumb: true
@@ -20,15 +20,12 @@ authors:
 #    url: https://hemi.jhu.edu/
 
 # Setting an abstract turns on the details grid for a project page.
-abstract: AIMD-Net is a node in the National Science Foundation's test bed network of Programmable Cloud Laboratories (PCL).
+#abstract: AIMD-Net is a node in the National Science Foundation's test bed network of Programmable Cloud Laboratories (PCL).
 
 funding:
   - funder: National Science Foundation
-    grant: Award No. 0000000
+    grant: Award No. 2607526
     url: https://www.nsf.gov/
-
-  - funder: JHU Whiting School of Engineering
-    url: https://wse.jhu.edu/
 
 #license: CC BY 4.0
 
@@ -51,24 +48,21 @@ share: false             # hide share buttons in the footer
 #   - name: Best Paper Award
 ---
 
-## Overview
+### Overview
+Automated, high-throughput laboratories such as [AIMD-L]({{< relref "/tools/aimdl" >}}) are transforming materials science and engineering by making it possible to collect, process, and analyze experimental data at tremendous rates. AI and ML models trained on these data can drive materials exploration campaigns and can themselves make decisions about what experiments to do next --- true autonomous research.
 
-Historically, materials discovery has relied on trial-and-error, with researchers gradually expanding compositional and processing steps through manual, iterative testing. In recent years this paradigm has shifted with the rise of data-driven materials discovery, where computational tools like density functional theory (DFT) help refine experimental search spaces, drastically reducing the need for exhaustive trial-and-error. These computational techniques are now being enhanced even further through the integration of artificial intelligence (AI) and machine learning (ML) methods.
+But any single laboratory has a limited set of capabilities. Expensive or specialized instruments will only exist in a few places, and some types of equipment are incompatible (we wouldn't usually want to put precision laser optics and rolling mills in the same lab, for example). So any complex research program is almost always going to need to access more than one laboratory.
 
-As data-driven models become faster and more sophisticated, however, the traditional pace of experimentation has become a bottleneck that slows down the otherwise accelerated materials discovery pipeline. Conventional methods simply cannot keep up with the speed at which computational predictions are now being generated.
+The next logical step is to realize that although we might need multiple laboratories for a project, these laboratories don't necessarily need be located near each other. Proximity is certainly useful for moving samples around, but data moves easily and researchers can communicate anywhere around the world. A researcher in one location could, at least in theory, conduct their research remotely, using any number of geographically-distributed laboratories.
 
-Our lab looks at how we can analyze data from high-throughput experimentation in an automated way, allowing us to analyze samples and directly make decisions on further experiments without direct researcher intervention.
+The NSF Programmable Cloud Laboratory (PCL) Test Bed Network is enabling this vision by establishing the common data, metadata, and AI standards essential to allowing complex autonomous workflows to be conducted across a distributed network of labs. 
 
-## Approach
+[Professor Hufnagel]({{< relref "/authors/me" >}}) is the director of AIMD-Net, a node in the PCL Test Bed Network. The objectives of AIMD-Net fall into three broad areas:
+- **Data and information** -- Develop and deploy a robust and flexible data and information infrastructure to enable cooperative, distributed autonomous experimentation across a network of PCLs
+- **AI/ML for autonomy** -- Use the data infrastructure to enable integrated AI and ML to advance autonomous experimentation across multiple scales, from individual instruments to individual PCL nodes and finally to the entire PCL network; and
+- **Science drivers** --  Deploy data and AI-driven research in AIMD-Net through large-scale autonomous experimental campaigns for (i) multi-objective, data-driven design of structural alloys, and (ii) building a data-driven foundation model for lightweight structural alloys.
 
-- ML
-- More ML
-- Still more ML
+The physical home base of AIMD-Net is [AIMD-L]({{< relref "/tools/aimdl" >}}), but its heart is a team of researchers extending well beyond JHU:
+![AIMD-net collaborators](map.png)
 
-![Example figure](figure1.png)
 
-## Results
-
-Text, equations, and further figures go here.
-
-#{{< youtube VIDEO_ID >}}

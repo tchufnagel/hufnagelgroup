@@ -1,0 +1,12 @@
+{{- $agreements := slice -}}
+{{- range split (.Get "agreement" | default "2607526") "," -}}
+  {{- with strings.TrimSpace . }}{{ $agreements = $agreements | append . }}{{ end -}}
+{{- end -}}
+<p style="font-size: 0.75em; font-style: italic; margin-top: 1em;">
+This material is based upon work supported by the U.S. National Science Foundation and was accomplished under
+the PCL Test Bed
+{{ if gt (len $agreements) 1 }}Cooperative Agreement Numbers{{ else }}Cooperative Agreement Number{{ end }}
+{{ delimit $agreements ", " " and " }}.
+Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s)
+and do not necessarily reflect the views of the National Science Foundation.
+</p>
