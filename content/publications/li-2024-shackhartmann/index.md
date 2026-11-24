@@ -14,4 +14,7 @@ publication_types:
 - article-journal
 publication: '*Mechanics of Materials*'
 doi: 10.1016/j.mechmat.2024.105010
+hugoblox:
+  ids:
+    arxiv: '2310.00862'
 ---

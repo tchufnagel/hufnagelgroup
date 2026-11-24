@@ -20,5 +20,7 @@ publication_types:
 - article-journal
 publication: '*Review of Scientific Instruments*'
 doi: 10.1063/5.0326710
-arxiv: https://doi.org/10.48550/arXiv.2603.06835
+hugoblox:
+  ids:
+    arxiv: '2511.14905'
 ---

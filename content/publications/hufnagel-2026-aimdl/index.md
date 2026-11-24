@@ -25,7 +25,7 @@ publishDate: '2026-11-07T20:39:48.308942Z'
 publication_types:
 - manuscript
 doi: 10.48550/arXiv.2603.06835
-links:
-- name: URL
-  url: https://arxiv.org/abs/2603.06835
+hugoblox:
+  ids:
+    arxiv: '2603.06835'
 ---
