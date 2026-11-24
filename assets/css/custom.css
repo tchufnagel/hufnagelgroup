@@ -18,3 +18,6 @@ div.max-w-prose.grid:not(:has(> div:nth-child(2) a[href*="/publication_types/"])
 /* Related publications list on project and tool pages (project-pubs shortcode) */
 .project-pubs h2 { font-size: 1em; font-weight: 700; margin-top: 2em; margin-bottom: 0.5em; }
 .project-pubs .pub-list-item { font-size: 0.85em; line-height: 1.35; }
+
+/* Navbar menu hover on Heritage Blue header: JHU Spirit Blue */
+.nav-link:hover, .nav-dropdown-link:hover { color: #68ACE5; }

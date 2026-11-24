@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Hufnagel group"
+    name: "Hufnagel Group"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -48,8 +48,8 @@ hugoblox:
       background: "#FFFFFF"
       foreground: ""
       header:
-        background: "#68ACE5"
-        #background: "#002D72"
+        background: "#002D72" # JHU Heritage Blue
+        #background: "#68ACE5" # JHU Spirit Blue
         foreground: "#FFFFFF"
       footer:
         background: ""
