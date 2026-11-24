@@ -10,5 +10,9 @@ publishDate: '2026-11-07T20:39:48.322257Z'
 publication_types:
 - article-journal
 publication: '*International Journal of Impact Engineering*'
-doi: 10.1016/j.ijimpeng.2026.105946
+related_projects:
+  - materials-in-extreme-environments
+hugoblox:
+  ids:
+    doi: 10.1016/j.ijimpeng.2026.105946
 ---

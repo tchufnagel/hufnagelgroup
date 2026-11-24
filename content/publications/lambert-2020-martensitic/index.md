@@ -16,5 +16,9 @@ publishDate: '2026-11-07T20:39:48.363842Z'
 publication_types:
 - article-journal
 publication: '*Metallurgical and Materials Transactions A*'
-doi: 10.1007/s11661-020-05913-y
+related_projects:
+  - synchrotrons
+hugoblox:
+  ids:
+    doi: 10.1007/s11661-020-05913-y
 ---

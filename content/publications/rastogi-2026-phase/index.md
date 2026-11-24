@@ -13,5 +13,9 @@ publishDate: '2026-11-07T20:39:48.304634Z'
 publication_types:
 - article-journal
 publication: '*Journal of Geophysical Research: Planets*'
-doi: 10.1029/2026JE009891
+related_projects:
+  - materials-in-extreme-environments
+hugoblox:
+  ids:
+    doi: 10.1029/2026JE009891
 ---

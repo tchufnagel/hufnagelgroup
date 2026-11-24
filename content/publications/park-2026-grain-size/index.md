@@ -33,4 +33,9 @@ hugoblox:
 #links:
 #  - type: preprint
 #    url: https://arxiv.org/abs/2611.24755
+related_projects:
+  - ml-for-materials-science
+  - autonomous-experimentation
+  - maxima
+  - aimdl
 ---

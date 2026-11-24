@@ -2,7 +2,7 @@
 # ---- Confirmed in layouts/single.html ----
 title: Autonomous experimentation
 date: 2026-11-08
-summary: Robots, x-rays, and lasers. Oh my!
+summary: Getting robots to do our work for us.
 
 show_breadcrumb: true
 show_date: true          # set false to hide the date
@@ -62,6 +62,8 @@ Recent developments in robotics are making it possible to turn some experiments 
 Marrying automated experiments with AI produces even greater advantages. In a robotic lab every experiment is systematically tracked and recorded, including all of the metadata - information that provides context for data, such as the identity of the sample, which instrument was used, and what the experimental conditions were. The result is data sets that are consistent, reliable, and less in need of subjective interpretation.
 
 These data enable closed-loop decision-making, in which an algorithm chooses the experiments to be run based on the results of what has been learned so far. Although humans have expert knowledge, there are limits to how information they can hold in memory  and they have a hard time visualizing the many variables involved in a complex experimental campaign. AI can assist by assessing the results of the current experiment and placing it in the context of an entire data set as well the results of prior experiments and what is known from the scientific literature.
+
+{{< project-pubs >}}
 
 {{< arl agreement="W911NF-22-2-0014, W911NF-23-2-0062, W911NF-22-2-0121" >}}
 {{< nsf award="1921959" >}}

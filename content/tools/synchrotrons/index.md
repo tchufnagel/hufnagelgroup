@@ -19,10 +19,6 @@ authors:
 #abstract: Synchrotrons are exceptionally bright sources of x-rays for the most demanding experiments, including x-ray imaging of dynamic deformation and fracture as well as detailed studies of microstructure with high-energy x-ray diffraction microscopy.
 
 funding:
-  - funder: National Science Foundation
-    grant: Award No. 0000000
-    url: https://www.nsf.gov/
-
   - funder: JHU Whiting School of Engineering
     url: https://wse.jhu.edu/
 
@@ -50,3 +46,5 @@ share: false             # hide share buttons in the footer
 Synchrotrons are exceptionally bright sources of x-rays for the most demanding experiments, including x-ray imaging of dynamic deformation and fracture as well as detailed studies of microstructure with high-energy x-ray diffraction microscopy.
 
 *Description coming soon.*
+
+{{< project-pubs >}}

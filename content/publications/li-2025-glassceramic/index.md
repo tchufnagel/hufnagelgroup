@@ -19,5 +19,10 @@ publishDate: '2026-11-07T20:39:48.331658Z'
 publication_types:
 - article-journal
 publication: '*Journal of the American Ceramic Society*'
-doi: 10.1111/jace.70262
+related_projects:
+  - materials-in-extreme-environments
+  - synchrotrons
+hugoblox:
+  ids:
+    doi: 10.1111/jace.70262
 ---

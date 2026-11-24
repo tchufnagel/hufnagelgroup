@@ -21,5 +21,9 @@ publishDate: '2026-11-07T20:39:48.335634Z'
 publication_types:
 - article-journal
 publication: '*Acta Materialia*'
-doi: 10.1016/j.actamat.2025.121079
+related_projects:
+  - materials-in-extreme-environments
+hugoblox:
+  ids:
+    doi: 10.1016/j.actamat.2025.121079
 ---

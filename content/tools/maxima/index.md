@@ -24,10 +24,6 @@ authors:
 #abstract: MAXIMA is a custom instrument in AIMD-L for high-throughput x-ray diffraction and x-ray fluorescence spectroscopy.
 
 funding:
-  - funder: National Science Foundation
-    grant: Award No. 0000000
-    url: https://www.nsf.gov/
-
   - funder: JHU Whiting School of Engineering
     url: https://wse.jhu.edu/
 
@@ -55,3 +51,8 @@ share: false             # hide share buttons in the footer
 MAXIMA is a custom instrument in AIMD-L for high-throughput x-ray diffraction and x-ray fluorescence spectroscopy.
 
 *Description coming soon.*
+
+{{< project-pubs >}}
+
+{{< arl agreement="W911NF-22-2-0014, W911NF-23-2-0062, W911NF-22-2-0121" >}}
+{{< nsf award="1921959" >}}

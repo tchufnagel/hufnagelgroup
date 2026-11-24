@@ -13,5 +13,10 @@ publishDate: '2026-11-07T20:39:48.312331Z'
 publication_types:
 - article-journal
 publication: '*Scientific Reports*'
-doi: 10.1038/s41598-026-51212-8
+related_projects:
+  - ml-for-materials-science
+  - maxima
+hugoblox:
+  ids:
+    doi: 10.1038/s41598-026-51212-8
 ---

@@ -12,5 +12,9 @@ publishDate: '2026-11-07T20:39:48.354421Z'
 publication_types:
 - article-journal
 publication: '*Materials Science and Engineering A*'
-doi: 10.1016/j.msea.2023.144674
+related_projects:
+  - materials-in-extreme-environments
+hugoblox:
+  ids:
+    doi: 10.1016/j.msea.2023.144674
 ---

@@ -21,5 +21,10 @@ publishDate: '2026-11-07T20:39:48.325363Z'
 publication_types:
 - article-journal
 publication: '*Computational Materials Science*'
-doi: 10.1016/j.commatsci.2025.114331
+related_projects:
+  - ml-for-materials-science
+  - synchrotrons
+hugoblox:
+  ids:
+    doi: 10.1016/j.commatsci.2025.114331
 ---

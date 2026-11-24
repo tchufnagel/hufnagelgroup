@@ -13,8 +13,10 @@ publishDate: '2026-11-07T20:39:48.344664Z'
 publication_types:
 - article-journal
 publication: '*Mechanics of Materials*'
-doi: 10.1016/j.mechmat.2024.105010
 hugoblox:
   ids:
+    doi: 10.1016/j.mechmat.2024.105010
     arxiv: '2310.00862'
+related_projects:
+  - materials-in-extreme-environments
 ---

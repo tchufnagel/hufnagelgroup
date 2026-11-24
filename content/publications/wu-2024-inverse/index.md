@@ -9,5 +9,9 @@ publishDate: '2026-11-07T20:39:48.341779Z'
 publication_types:
 - article-journal
 publication: '*Acta Materialia*'
-doi: 10.1016/j.actamat.2023.119562
+related_projects:
+  - ml-for-materials-science
+hugoblox:
+  ids:
+    doi: 10.1016/j.actamat.2023.119562
 ---

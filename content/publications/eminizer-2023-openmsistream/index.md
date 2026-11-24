@@ -16,5 +16,10 @@ publishDate: '2026-11-07T20:39:48.357417Z'
 publication_types:
 - article-journal
 publication: '*Journal of Open Source Software*'
-doi: 10.21105/joss.04896
+related_projects:
+  - autonomous-experimentation
+  - aimdl
+hugoblox:
+  ids:
+    doi: 10.21105/joss.04896
 ---

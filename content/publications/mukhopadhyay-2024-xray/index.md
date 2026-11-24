@@ -16,5 +16,10 @@ publishDate: '2026-11-07T20:39:48.338729Z'
 publication_types:
 - article-journal
 publication: '*Advanced Powder Technology*'
-doi: 10.1016/j.apt.2024.104472
+related_projects:
+  - materials-in-extreme-environments
+  - synchrotrons
+hugoblox:
+  ids:
+    doi: 10.1016/j.apt.2024.104472
 ---

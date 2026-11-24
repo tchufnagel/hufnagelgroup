@@ -15,5 +15,9 @@ publishDate: '2026-11-07T20:39:48.360569Z'
 publication_types:
 - article-journal
 publication: '*Extreme Mechanics Letters*'
-doi: 10.1016/j.eml.2020.100754
+related_projects:
+  - synchrotrons
+hugoblox:
+  ids:
+    doi: 10.1016/j.eml.2020.100754
 ---

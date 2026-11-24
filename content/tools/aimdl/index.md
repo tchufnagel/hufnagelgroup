@@ -25,14 +25,6 @@ authors:
 #abstract: AIMD-L is an automated robotic laboratory for high-throughput characterization of structural metals and ceramics in extreme conditions.
 
 funding:
-  - funder: DEVCOM ARL (Army Research Laboratory)
-    grant: Award No. 0000000
-    url: https://www.nsf.gov/
-
-  - funder: National Science Foundation
-    grant: Award No. 0000000
-    url: https://www.nsf.gov/
-
   - funder: JHU Whiting School of Engineering
     url: https://wse.jhu.edu/
 
@@ -60,3 +52,9 @@ share: false             # hide share buttons in the footer
 AIMD-L is an automated robotic laboratory for high-throughput characterization of structural metals and ceramics in extreme conditions.
 
 *Description coming soon.*
+
+{{< project-pubs >}}
+
+{{< arl agreement="W911NF-22-2-0014, W911NF-23-2-0062, W911NF-22-2-0121" >}}
+{{< nsf award="1921959" >}}
+{{< nsf-pcl >}}

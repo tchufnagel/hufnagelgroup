@@ -16,5 +16,9 @@ publishDate: '2026-11-07T20:39:48.367263Z'
 publication_types:
 - article-journal
 publication: '*Physical Review Materials*'
-doi: 10.1103/PhysRevMaterials.4.083603
+related_projects:
+  - synchrotrons
+hugoblox:
+  ids:
+    doi: 10.1103/PhysRevMaterials.4.083603
 ---

@@ -4,3 +4,17 @@ div.mt-16.sm\:mt-20.max-w-3xl { margin-top: 2rem; }
 #section-hero .mx-auto.max-w-7xl { padding-top: 2rem; padding-bottom: 1rem; }
 section[id$="papers"] div.min-w-0.gap-2,
 section[id$="papers"] div.min-w-0.gap-2 + span.opacity-40 { display: none; }
+section[id$="papers"] p.line-clamp-3 { display: none; }
+section[id$="papers"] div.pt-3.border-t,
+section[id$="papers"] div.pt-2.border-t { border-top: 0; padding-top: 0; }
+section[id$="papers"] div.pt-3.border-t > div.mb-3 { display: none; }
+
+/* Publication pages: show "Abstract" heading and abstract text in a single column */
+div.max-w-prose.grid:not(:has(> div:nth-child(2) a[href*="/publication_types/"])) > div:nth-child(-n+2) {
+  grid-column: 1 / -1;
+  text-align: left;
+}
+
+/* Related publications list on project and tool pages (project-pubs shortcode) */
+.project-pubs h2 { font-size: 1em; font-weight: 700; margin-top: 2em; margin-bottom: 0.5em; }
+.project-pubs .pub-list-item { font-size: 0.85em; line-height: 1.35; }

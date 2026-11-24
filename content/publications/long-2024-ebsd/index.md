@@ -11,5 +11,9 @@ publishDate: '2026-11-07T20:39:48.351461Z'
 publication_types:
 - article-journal
 publication: '*Journal of Microscopy*'
-doi: 10.1111/jmi.13247
+related_projects:
+  - ml-for-materials-science
+hugoblox:
+  ids:
+    doi: 10.1111/jmi.13247
 ---

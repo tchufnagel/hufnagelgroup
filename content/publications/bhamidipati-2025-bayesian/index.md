@@ -10,5 +10,9 @@ publishDate: '2026-11-07T20:39:48.328444Z'
 publication_types:
 - article-journal
 publication: '*International Journal of Plasticity*'
-doi: 10.1016/j.ijplas.2025.104418
+related_projects:
+  - ml-for-materials-science
+hugoblox:
+  ids:
+    doi: 10.1016/j.ijplas.2025.104418
 ---

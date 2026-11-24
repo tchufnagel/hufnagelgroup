@@ -21,16 +21,6 @@ authors:
 # Setting an abstract turns on the details grid for a project page.
 #abstract: Automated, high-throughput experimentation in laboratories such as AIMD-L generates tremendous quantities of data. To be used for training AI and ML models, these data need to be processed autonomously.
 
-funding:
-  - funder: National Science Foundation
-    grant: Award No. 0000000
-    url: https://www.nsf.gov/
-
-  - funder: DEVCOM ARL (Army Research Laboratory)
-    grant: Award No. 0000000
-    url: https://www.nsf.gov/
-
-
 #license: CC BY 4.0
 
 share: false             # hide share buttons in the footer
@@ -59,3 +49,8 @@ Historically, materials discovery has relied on trial-and-error, with researcher
 As data-driven models become faster and more sophisticated, however, the traditional pace of experimentation has become a bottleneck that slows down the otherwise accelerated materials discovery pipeline. Conventional methods simply cannot keep up with the speed at which computational predictions are now being generated.
 
 Our lab looks at how we can analyze data from high-throughput experimentation in an automated way, allowing us to analyze samples and directly make decisions on further experiments without direct researcher intervention.
+
+{{< project-pubs >}}
+
+{{< arl agreement="W911NF-22-2-0121" >}}
+{{< nsf-pcl >}}

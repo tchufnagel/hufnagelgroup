@@ -72,3 +72,5 @@ The other primary technique in AXIOM is HEDM, which is ordinarily only done at s
 
 {{< figure src="axiom_hedm_sample.jpg" alt="Photo of HEDM sample with diffraction pattern" caption="An aluminum alloy sample and diffraction pattern for high-energy x-ray diffraction measured with AXIOM." >}}
 
+{{< wse >}}
+{{< msee >}}

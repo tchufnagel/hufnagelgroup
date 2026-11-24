@@ -12,7 +12,7 @@ sections:
          size: compact
     content:
          title: Hufnagel Group
-         text:  We like to do experiments, often using x-rays. Sometimes we hit things hard. Lately we've been getting robots to do our work for us and using machine learing to understand our data.
+         text:  We like to do experiments, often using x-rays. Sometimes we hit things hard. Lately we've been getting robots to do our work for us and using machine learning to understand our data.
          media:
            type: image
            src: group-photo.jpg

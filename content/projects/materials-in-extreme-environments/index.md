@@ -21,11 +21,6 @@ authors:
 # Setting an abstract turns on the details grid for a project page.
 #abstract: Robots, x-rays, and lasers. Oh my!
 
-funding:
-  - funder: Defense Threat Reduction Agency
-    grant: Award No. 0000000
-    url: https://www.dtra.mil
-
 #license: CC BY 4.0
 
 share: false             # hide share buttons in the footer
@@ -33,10 +28,9 @@ share: false             # hide share buttons in the footer
 # ---- Not confirmed for this Hugo Blox version: uncomment one at a time to test ----
 # toc: true              # table of contents
 
-# image:                 # featured-image settings (traditional Hugo Blox keys)
-#   placement: 2         # 1 = ~720 px (default), 2 = ~1200 px, 3 = full width
-#   caption: HELIX target chamber
-#   preview_only: false  # true = show on cards only, not on this page
+image:                 # featured-image settings (traditional Hugo Blox keys)
+   placement: 2         # 1 = ~720 px (default), 2 = ~1200 px, 3 = full width
+   preview_only: true  # true = show on cards only, not on this page
 
 # cover:                 # banner at top of page
 #   icon:
@@ -50,3 +44,7 @@ share: false             # hide share buttons in the footer
 {{< video src="granite-hyfire.mp4" >}}
 
 *Description coming soon.*
+
+{{< project-pubs >}}
+
+{{< msee >}}
